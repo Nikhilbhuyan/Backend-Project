@@ -1,0 +1,16 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "Learning backend by building a youtube like clone ()\u001b[Dref-chaui aur code)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "learning"
+  ],
+  "author": "Nikhil Bhuyan",
+  "license": "ISC"
+}
