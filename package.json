@@ -1,10 +1,12 @@
 {
+  "_comment":"Added types section (module for import syntax), On npm run dev- we want to run nodemon (nodemon is used for hotreloding )",
   "name": "backend_project",
   "version": "1.0.0",
   "description": "Learning backend by building a youtube like clone ()\u001b[Dref-chaui aur code)",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -12,5 +14,9 @@
     "learning"
   ],
   "author": "Nikhil Bhuyan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
